@@ -20,4 +20,4 @@ Solution: [CRUD Challenge.sql](https://github.com/superspysnake1/Udemy-SQL-Cours
 ## String Functions
 The next section covers some important string functions that are used to modify the outputs. For the whole course, we use example data from a bookstore. At the top of this file, we have the introductory practice and explanations of each function. At the end, we have the final exercises and my solutions. 
 
-Solution: [Book Store.sql]()
+Solution: [Book Shop.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c85808582ec5f6193cfebfa576612e7fe0559b3f/Book%20Shop.sql)
