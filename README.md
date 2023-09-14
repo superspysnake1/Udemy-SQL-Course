@@ -1,5 +1,5 @@
 # Udemy-SQL-Course
-To start learning SQL, I'm working through an introductory SQL course. The course is titled "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert", and can be found [here](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/34511736#content).
+To start learning SQL, I'm working through an introductory SQL course. The course is titled "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert", and can be found [here](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
 
 ## CRUD Basics
 The first 7 sections in this course cover what they call "CRUD operations", which is Creating, Reading, Updating, and Deleting elements in the database. In the 7th course, labeled "CRUD Challenge", I've been assigned the following:
