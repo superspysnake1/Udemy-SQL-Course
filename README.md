@@ -15,3 +15,5 @@ The first 7 sections in this course cover what they call "CRUD operations", whic
  - Delete all shirts (Catastrophe!)
  - Delete the entire shirts table (AAAAAHHH!!)
 
+Solution: [CRUD Challenge.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/d0cbd650cde03a90ed19744eab04833bc2e1d5a3/CRUD%20Challenge.sql).
+
