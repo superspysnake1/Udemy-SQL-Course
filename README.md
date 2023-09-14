@@ -17,3 +17,7 @@ The first 7 sections in this course cover what they call "CRUD operations", whic
 
 Solution: [CRUD Challenge.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/d0cbd650cde03a90ed19744eab04833bc2e1d5a3/CRUD%20Challenge.sql).
 
+## String Functions
+The next section covers some important string functions that are used to modify the outputs. For the whole course, we use example data from a bookstore. At the top of this file, we have the introductory practice and explanations of each function. At the end, we have the final exercises and my solutions. 
+
+Solution: [Book Store.sql]()
