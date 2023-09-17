@@ -2,6 +2,8 @@
 To start learning SQL, I'm working through an introductory SQL course. The course is titled "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert", and can be found [here](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
 
 ## CRUD Basics
+**Relevant Commands:** CREATE, DESC, INSERT, SELECT, FROM, UPDATE, SET, DELETE, DROP
+
 The first 7 sections in this course cover what they call "CRUD operations", which is Creating, Reading, Updating, and Deleting elements in the database. In the 7th course, labeled "CRUD Challenge", I've been assigned the following:
  - Create a database, shirts.db, and populate it with a shirts table including the provided data.
  - Add to the shirts table a medium purple polo shirt last worn 50 days ago.
@@ -15,9 +17,11 @@ The first 7 sections in this course cover what they call "CRUD operations", whic
  - Delete all shirts.
  - Delete the entire shirts table.
 
-Solution: [CRUD Challenge.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/d0cbd650cde03a90ed19744eab04833bc2e1d5a3/CRUD%20Challenge.sql).
+**Solution:** [CRUD Challenge.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/d0cbd650cde03a90ed19744eab04833bc2e1d5a3/CRUD%20Challenge.sql).
 
 ## String Functions
+**Relevant Commands:** CONCAT, CONCAT_WS, SUBSTR, REPLACE, REVERSE, LENGTH, CHAR_LENGTH, UPPER, LOWER
+
 The next section covers some important string functions that are used to modify the outputs. For the whole section, we use example data from a bookstore, and provided relevent explanations for why each function might be useful in context. At the top of this file, I have included the introductory practice and explanations of each function. Following that, I have included the final exercises and my solutions, which are summarized below:
  - Output a table of titles with all spaces replaced with '->'
  - Output a table with the last name of each author, printed both forwards and backwards.
@@ -26,4 +30,4 @@ The next section covers some important string functions that are used to modify 
  - Output a table with the title of each book and the character count of each title.
  - Output a table with a shortened title (with ellipses), the author name given in last,first form, and the quantity in stock.
 
-Solution: [Book Shop.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c85808582ec5f6193cfebfa576612e7fe0559b3f/Book%20Shop.sql)
+**Solution:** [Book Shop.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c85808582ec5f6193cfebfa576612e7fe0559b3f/Book%20Shop.sql)
