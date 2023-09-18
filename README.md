@@ -28,6 +28,20 @@ The next section covers some important string functions that are used to modify 
  - Output a table with the full name of each author in ALL CAPS.
  - Output a blurb table. The blurb should be of the form "The Namesake was released in 2003 by Jhumpa Lahiri."
  - Output a table with the title of each book and the character count of each title.
- - Output a table with a shortened title (with ellipses), the author name given in last,first form, and the quantity in stock.
+ - Output a table with a shortened title (with ellipses), the author name given in last, first form, and the quantity in stock.
 
 **Solution:** [Book Shop.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c85808582ec5f6193cfebfa576612e7fe0559b3f/Book%20Shop.sql)
+
+## Selection Refinement
+**Relevant Commands:** DISTINCT, ORDER BY, DESC, ASC, LIMIT, WHERE, LIKE
+
+The next section covers some important string functions that are used to modify the outputs. For the whole section, we use example data from a bookstore, and provided relevent explanations for why each function might be useful in context. At the top of this file, I have included the introductory practice and explanations of each function. Following that, I have included the final exercises and my solutions, which are summarized below:
+ - Output a table of all books that contains 'stories' in the title.
+ - Find the longest book. Output the title and page count.
+ - Output a summary table containing the three most recent books in the form "Lincoln in the Bardo - 2017"
+ - Find all books where the author's last name contains a space character.
+ - Find the three books with the lowest stock.
+ - Output a table of book titles and author last names sorted first by last name, then by title.
+ - Output a table called 'yell', with entries like 'MY FAVORITE AUTHOR IS _____!' for each author. Remove duplicates.
+
+**Solution:** [Book Shop 2.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/9b8be5277654b7342cf6d235d05187aa854d090b/Book%20Shop%202.sql)
