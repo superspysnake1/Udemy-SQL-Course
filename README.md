@@ -58,3 +58,14 @@ This section covers aggregate functions, which are used to get useful data about
  6. Output a table grouped by release year giving the number of books released during each year and the average page count of books released each year.
 
 **Code:** [Aggregate_Functions.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c81bf36181fcaae221b4093f1d586118763f418d/Aggregate_Functions.sql)
+
+## Data Types
+**Relevant Types:** CHAR, VARCHAR, INT, TINYINT, BIGINT, DECIMAL, FLOAT, DOUBLE, DATE, TIME, CURDATE, CURTIME, NOW.
+
+**Relevant Commands:** 
+
+In this section, we covered the most important data types, as well as some useful functions to get more useful information from them. 
+At the top of the code file, I've included explanations and example with each command. Following that, I have included the final exercises and my solutions, which are summarized below:
+ 1. 
+
+**Code:** [Data_Types.sql]()
