@@ -5,7 +5,9 @@ To start learning SQL, I'm working through an introductory SQL course. The cours
 **Useful Links**
 
 [MySQL Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/char.html)
+
 [Course Landing Page](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
+
 [Course Videos](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/34511736#overview)
 
 ## CRUD Basics
