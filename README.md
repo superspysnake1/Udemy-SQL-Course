@@ -82,8 +82,15 @@ In this section, we covered the most important data types. I wrote quick explana
 
 ## Comparison and Logical Operators
 
-**Relevant Commands:** EXAMPLE
+**Relevant Commands:** AND, OR, XOR, NOT, BETWEEN, IN, CASE, IS NULL.
 
-This section covers logical operators and comparison, which allows us to get more specific about our data selection. 
+This section covers logical operators and comparison, which allows us to get more specific about our data selection. We cover logical operators, which act the same as discrete mathematics. At the top of the code file, I've included explanations and example with each command. Following that, I have included the final exercises and my solutions, which are summarized below:
+ 1. Select all books written before 1980 (non inclusive)
+ 2. Select all books written by Eggers or Chabon
+ 3. Select all books written by Lahiri published after 2000.
+ 4. Select all books with page counts between 100 and 200.
+ 5. Select all books whos author's last name starts with a 'C' or an 'S'.
+ 6. Make a selection including the title, author-s last name, and a 'Type' column, which contains 'Short Stories' if the entry contains 'stories' in the title, 'Memoir' if the title is ''Just Kids' of 'A Heartbreaking Work of Staggering Genius', and 'Novel' for everything else.
+ 7. Make a selection including each unique author full name, and a 'Count' column which has the total number of books they have each published.
 
-**Code:** [Comparison_and_Logic.sql]()
+**Code:** [Comparison_and_Logic.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/0be541846260149c907cf256b0321fa9680102db/Comparison_and_Logic.sql)
