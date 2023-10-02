@@ -76,10 +76,14 @@ This section covers aggregate functions, which are used to get useful data about
 
 **Relevant Types:** CHAR, VARCHAR, INT, TINYINT, BIGINT, DECIMAL, FLOAT, DOUBLE, DATE, TIME, CURDATE, CURTIME, NOW.
 
-**Relevant Commands:** 
+In this section, we covered the most important data types. I wrote quick explanations of what makes each type useful, and how they're most effecient. 
 
-In this section, we covered the most important data types, as well as some useful functions to get more useful information from them. 
-At the top of the code file, I've included explanations and example with each command. Following that, I have included the final exercises and my solutions, which are summarized below:
- 1. 
+**Code:** [Data_Types.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/6adbacbf9f299f420f33b60b07f3cdc0cfbcfb8a/Data_Types.sql)
 
-**Code:** [Data_Types.sql]()
+## Comparison and Logical Operators
+
+**Relevant Commands:** EXAMPLE
+
+This section covers ...
+
+**Code:** [Comparison_and_Logic.sql]()
