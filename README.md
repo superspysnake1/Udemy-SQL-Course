@@ -1,6 +1,10 @@
 # Udemy SQL Course
 To start learning SQL, I'm working through an introductory SQL course. The course is titled "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert", and can be found [here](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/).
 
+**Useful Links**
+
+[MySQL Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/char.html)
+
 ## CRUD Basics
 **Relevant Commands:** CREATE, DESC, INSERT, SELECT, FROM, UPDATE, SET, DELETE, DROP.
 
