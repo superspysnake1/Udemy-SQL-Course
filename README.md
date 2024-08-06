@@ -94,3 +94,13 @@ This section covers logical operators and comparison, which allows us to get mor
  7. Make a selection including each unique author full name, and a 'Count' column which has the total number of books they have each published.
 
 **Code:** [Comparison_and_Logic.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/0be541846260149c907cf256b0321fa9680102db/Comparison_and_Logic.sql)
+
+## Comparisons Continued and Table Changes
+
+**Relevant Commands:** UNIQUE, CHECK, CONSTRAINT, ALTER TABLE (ADD, DROP, RENAME TO, MODIFY)
+
+This section covers additional comparison tools, along with how to change the details of table definitions. I've included explanations and examples with each command.
+
+**CODE:** [Comparisons_Continued.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/85ef34b7dfb27b6d03fcfafc90ae9f0925035dc2/Comparisons_Continued.sql)
+
+
