@@ -103,4 +103,20 @@ This section covers additional comparison tools, along with how to change the de
 
 **CODE:** [Comparisons_Continued.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/85ef34b7dfb27b6d03fcfafc90ae9f0925035dc2/Comparisons_Continued.sql)
 
+## Relationships and Joins
+
+**Relevant Commands:** FOREIGN KEY, REFERENCES, JOIN, LEFT JOIN, RIGHT JOIN
+
+This section covers different kinds of data relationships like one-to-one, one-to-many, and many-to-many. These can be implemented into tables using foreign keys. It also coverers the inner join, left join, and right join.
+
+At the end of this course, I completed the following exercises:
+1. Make the following table schema. There should be a students table with an id and first_name columns. There should also be a papers table with title, grade, and student_id columns. Here the student_id should be an id that is found in the students table.
+2. Write the command to generate the first output provided in the video.
+3. Write the command to generate the second output provided in the video.
+4. Repeat the second output but with missing titles replaces with 'MISSING' and missing grades replaced with '0'.
+5. Select an output table that included the first name of every student, and the average grade they've recieved on their papers. Relace missing grades with '0'.
+6. From the same table in problem 5, add a column where you state whether or not they passed the course, with 75% being the cutoff grade. 
+
+**CODE:** [Relationships_and_Joins.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c14149d6d58b33727b77df3bb256dcc139eb3381/Relationships_and_Joins.sql)
+
 
