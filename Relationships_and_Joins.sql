@@ -195,15 +195,16 @@ SELECT * FROM customers;
 SELECT * FROM orders;
 
 /* To finish this section, complete the following exercises:
-	1. Make the following table schema. There should be a students table with an id and first_name 
-    columns. There should also be a papers table with title, grade, and student_id columns. Here 
-    the student_id should be an id that is found in the students table. 
-    2. Given the outputs provided from the video, use different joins to generate those outputs.
-    3. Repeat the second output but with missing titles replaces with 'MISSING' and missing grades
+	1. Make the following table schema. There should be a students table with an id and 
+    first_name columns. There should also be a papers table with title, grade, and student_id 
+    columns. Here the student_id should be an id that is found in the students table.
+	2. Write the command to generate the first output provided in the video.
+	3. Write the command to generate the second output provided in the video.
+	4. Repeat the second output but with missing titles replaces with 'MISSING' and missing grades 
     replaced with '0'.
-    4. Select an output table that included the first name of every student, and the average grade 
+	5. Select an output table that included the first name of every student, and the average grade 
     they've recieved on their papers. Relace missing grades with '0'.
-    5. From the same table in problem 4, add a column where you state whether or not they passed the 
+	6. From the same table in problem 5, add a column where you state whether or not they passed the 
     course, with 75% being the cutoff grade.  */
 
 -- Here I create the student and papers table. 
@@ -233,26 +234,26 @@ INSERT INTO papers (student_id, title, grade ) VALUES
 SELECT * FROM students;
 SELECT * FROM papers;
 
--- First required selection
+-- Problem 2 selection
 SELECT first_name, title, grade FROM papers
 JOIN students ON papers.student_id = students.id
 ORDER BY grade DESC;
 
--- Second required selection
+-- Problem 3 selection
 SELECT first_name, title, grade FROM students
 LEFT JOIN papers ON papers.student_id = students.id;
 
--- Modified second required selection
+-- Problem 4 selection
 SELECT first_name, IFNULL(title, 'MISSING') AS 'title', IFNULL(grade, 0)AS 'grade' FROM students
 LEFT JOIN papers ON papers.student_id = students.id;
 
--- Problem 4 selection
+-- Problem 5 selection
 SELECT first_name, IFNULL(AVG(grade),0) AS 'average_grade' FROM students
 LEFT JOIN papers ON papers.student_id = students.id
 GROUP BY first_name
 ORDER BY average_grade DESC;
 
--- Problem 5 selection
+-- Problem 6 selection
 SELECT 
 	first_name, 
 	IFNULL(AVG(grade),0) AS 'average_grade', 
