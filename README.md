@@ -119,4 +119,16 @@ At the end of this course, I completed the following exercises:
 
 **CODE:** [Relationships_and_Joins.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/c14149d6d58b33727b77df3bb256dcc139eb3381/Relationships_and_Joins.sql)
 
+## Many to Many Relationships
+
+In this section, we completed the following exercises around many-to-many relationships. No new commands were introduced this time. I was given sample data for a tv show review site, that includes data on each series, the reviewers, and each review, which is connected to the previous two. 
+1. Select a table that includes every different review rating for each series.
+2. Select a table that includes each series in the database along with the average rating of each series.
+3. Select a table that includes gives the first name and last name of each reviewer attached to any rating they've given a show.
+4. Select a table that includes all series that have no reviews published.
+5. Select a table of genres and the average rating for each genre.
+6. Select a table which includes every reviewer by first and last name, the number of times they've published, their minimum, maximum, and average rating, and a status column, which will be ACTIVE if they've left a review, and INACTIVE otherwise.
+7. Select a table that includes every review, along with the tile and reviewer that it is associated with.
+
+**CODE:** [Many_to_Many_Relationships.sql](https://github.com/superspysnake1/Udemy-SQL-Course/blob/2187cda035d0cc35bddbaf122926ca1a47fd071d/Many_to_Many_Relationships.sql)
 
